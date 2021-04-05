@@ -106,3 +106,45 @@ nav li:first-child a {
     box-shadow: 4px 4px 18px rgba(0,0,0,0.2);
     border-radius: 10px;
 }
+
+
+.skills {
+    margin-top: 4rem;
+}
+
+.skill h1{
+    font-size: 1.9rem;
+    margin-bottom: .5rem;
+}
+
+.skill.header-text p {
+    font-size: .8rem;
+    color: #ccc;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+.skill-grid.header-text {
+    margin-bottom: 2.3rem;
+}
+
+.skill-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 3.3rem ;
+    margin-bottom: 2rem;
+}
+
+.skill-item {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.skill-item h2{
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+.skill-item p {
+    font-size: .8rem;
+    line-height: 1.4rem;
+}
