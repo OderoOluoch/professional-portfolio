@@ -5,7 +5,7 @@ Odero Oluoch
 
 
 ## Description
-This is a wesite that give my professional skills
+This is a website that give my professional skills
 
 
 
