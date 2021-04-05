@@ -90,3 +90,19 @@ nav li:first-child a {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.brands {
+    margin-top: -3rem;
+    z-index:100;
+    position: relative;
+  
+}
+
+.brands .wrapper{
+    background: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 4px 4px 18px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
