@@ -148,3 +148,48 @@ nav li:first-child a {
     font-size: .8rem;
     line-height: 1.4rem;
 }
+
+
+.ui-card p, .ux-card p {
+    margin-bottom: 1.2rem;
+}
+
+.ui-card{
+    background-image: url('./images/ui.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.ui-card .overlay{
+    padding: 2rem;
+    background: rgba(118,141,247,0.6);
+    
+}
+
+.ux-card .overlay{
+    padding: 2rem;
+    background: rgba(59,133,239,0.6);
+    overflow-x: hidden;
+}
+
+.ui-card .overlay h2, .ux-card .overlay h2, .ui-card .overlay p, .ux-card .overlay p{
+    color: #fff;
+}
+
+.ux-card{
+    background-image: url('./images/ux.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.ux-card button, 
+.ui-card button {
+    background: transparent;
+    padding: .8rem 2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid #fff ;
+    color: #fff;
+}
