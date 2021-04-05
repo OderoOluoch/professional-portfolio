@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    color: #505050;
+    font-family: 'Roboto',sans-serif;
+}
+
+.wrapper{
+    width: 70%;
+    margin: auto;
+}
+
+nav{
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top:0;
+    width: 70%;
+    padding: 1rem 0rem;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li {
+    margin-right: 2rem;
+}
+
+nav a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ccc;
+}
+
+nav li:first-child a {
+    color: #333;
+}
+
+.logos{
+    width: 40px;
+    height: 45px;
+}
+
+.intro-wrapper{
+    height: 95vh;
+    position: relative;
+}
+
+.intro-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100%;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30%;
+}
+
+.intro-text h1{
+    font-size: 4.2rem;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+
+.intro-text p {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.intro-text button{
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+.intro-img{
+    background-image: url('./images/Odesh.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
