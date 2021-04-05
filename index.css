@@ -193,3 +193,8 @@ nav li:first-child a {
     border: 1px solid #fff ;
     color: #fff;
 }
+
+.skill-content {
+    padding: 2rem;
+    text-align: center;
+}
