@@ -243,3 +243,64 @@ nav li:first-child a {
     border: 1px solid #ccc;
     color:#4a4a4a;
 }
+
+
+.about{
+    height: 80vh;
+    margin-bottom: 9rem;
+}
+
+.about-grid{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-column-gap: 10% ;
+}
+
+.about-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 35%;
+}
+
+.about-img{
+    background-image: url('./images/Odero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact {
+    margin-top: -5rem;
+    background-image: url('./images/amazon.jp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact small{
+    font-weight: 700;
+}
+
+.contact h1 {
+    font-size: 1.9rem;
+    margin : 2.3rem 0rem ;
+}
+
+.contact button{
+    background: transparent ;
+    padding: .8rem 2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    color: #4a4a4a;
+}
+
+.social-icons {
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
