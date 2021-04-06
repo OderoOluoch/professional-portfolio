@@ -274,6 +274,7 @@ nav li:first-child a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 5px;
 }
 
 .contact {
