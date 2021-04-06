@@ -230,6 +230,11 @@ nav li:first-child a {
     margin-bottom: 1rem;
 }
 
+.hobbies li{
+    font-size: .8rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
 .work-desc p + p {
     margin-bottom: 3rem !important;
 }
